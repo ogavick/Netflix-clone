@@ -1,0 +1,10 @@
+body { 
+  margin: 0; 
+  background: #111; 
+  color: white; 
+  font-family: Arial; 
+}
+.row { display: flex; overflow-x: scroll; gap: 10px; padding: 20px; }
+.row::-webkit-scrollbar { display: none; }
+.row img { width: 150px; border-radius: 5px; transition: 0.3s; cursor: pointer; }
+.row img:hover { transform: scale(1.08); }
